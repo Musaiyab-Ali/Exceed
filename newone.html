@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border
+}
+html{
+	height: 100%;
+}
+.wrapper{
+	min-height: 100%;
+	width: 100%;
+	position:relative;
+}
+body{
+	
+	background-color: lightblue;
+
+}
+h2{
+	padding: 50px;
+	background: #112233;
+	color: #f0f1f5;
+	font-family: big john;
+	font-size: 30px;
+	letter-spacing: 15px;
+	 text-align: center;
+}
+nav{
+	height: 40px;
+	width: 560px;
+	display: block;
+	margin:0 auto;
+	text-align:center;
+	text-transform: uppercase;
+}
+nav a{
+	display: block;
+	text-orientation: none;
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 13pt;
+	color: #4842f4;
+
+}
+nav a:hover{
+	background:blue;
+	color: #f0f1f5;
+}
+nav ul{
+	list-style: none;
+}
+nav ul li{
+	float: left;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	background:#f0f1f5;
+} nav ul ul li{
+	position: relative;
+	display: none;
+}
+nav ul li:hover ul li{
+	display: block;
+	animation: navmenu 500ms forwards;
+
+}
+@keyframes navmenu{
+	0%{
+		opacity: 0;
+		top: 5px;
+
+	}
+	100%{
+		opacity: 1;
+		top: 0px;
+	}
+}
+</style>
+<link rel="stylesheet" href="style.css" 
+type="text/css">
+<title>
+	Exceed^
+</title>
+</head>
+<body>	
+	<div class="wrapper">
+		<header>
+			<h2>
+			<a href="#" class="btn-gradient red block">	EXCEED ^ </a>
+			</h2>
+		</header>
+		<div class="navigatioDesktop">
+			<nav>
+				<ul>
+					<li><a href="#">Top Movies </a> 
+					<ul>
+						<li>
+						<a href="#">IMbd</a>	
+						</li>
+
+						</ul>
+					</li>
+					<li> <a href="#"> Movie Streamers</a>
+						<ul>
+							<li>
+							<a href="#">Netflix
+							</li>
+						</a>	
+							<li>
+							<a href="#">Amazon Videos</a>	
+							</li>
+							<li>
+							<a href="#">Hulu</a>
+							</li>
+						</ul>
+					</li>
+					<li> <a href="#"> Top TV </a>
+						<ul>
+						
+						<li>
+						<a href="#">
+							IMbd
+						</a>	
+						</li>
+					</ul>
+				</li>
+					<li> <a href="#">TV streamer</a> 
+						<ul>
+							<li>
+							<a href="#">Netflix
+							</li>
+							<li>
+							<a href="#">Amazon Videos</a>
+							</li>
+							<li>
+							<a href="#">Hulu</a>
+							</li>
+						</ul>
+					 </li>
+				</ul>
+			</nav>
+		</div>
+		<article>
+			<p>write here for article. </p>
+		</article>
+		<footer >
+			Exceed^ &copy 2018
+		</footer>
+	</div>
+</body>
+</html>

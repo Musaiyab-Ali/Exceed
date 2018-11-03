@@ -4,3 +4,4 @@ kentucky Fried Poppies
 hello its a meeeeeeeee your dad
 \n 
 test test
+Kill me slowly..

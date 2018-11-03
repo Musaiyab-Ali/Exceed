@@ -1,7 +1,7 @@
 *{
 	padding:0;
 	margin:0;
-	box-sizing:border
+	/*box-sizing:border*/
 }
 html{
 	height: 100%;
@@ -35,7 +35,7 @@ nav{
 }
 nav a{
 	display: block;
-	text-orientation: none;
+	/*text-orientation: none;*/
 	font-family: monospace;
 	font-weight: bold;
 	font-size: 13pt;

@@ -3,19 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" type="text/css" href="headerTest.css">
+    <link rel="stylesheet" type="text/css" href="signUpPage.css">
 </head>
 <body>
 <header id="header">
     <div id="logo-container">
         <h1 id="logo-placeholder">LOGO</h1>
+    </div>
 
-        <div class="userInfo">
-            <form>
-                <type
-            </form>
-        </div>
+    <div class="userInfo">
+        <form>
+            <!-- Javascript to check if text === email or username -->
+            <input type="text" id="userId" name="userId" placeholder="Email or username" required>
+            <!-- Check password for userId -->
+            <input type="text" id="userPassword" name="userPassword" placeholder="Password" required>
+            <button type="submit" id="logIn" name="logIn">Log In</button>
+        </form>
     </div>
 </header>
+
+<div id="skyBlueLine">
+    <hr>
+</div>
+
 </body>
 </html>

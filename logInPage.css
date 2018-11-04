@@ -37,10 +37,6 @@ a:hover{
     color: cyan;
 }
 
-a:visited{
-    color: limegreen;
-}
-
 #skyBlueLine{
     margin-top: 0.5%;
 }

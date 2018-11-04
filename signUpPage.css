@@ -4,13 +4,24 @@
 
 header{
     margin-top: 1%;
+    margin-left: 8%;
+    margin-right: 8%;
     display: flex;
     align-items: center;
 }
 
-#logo-container{
-    margin-left: 5%;
-    margin-right: 55%;
+.userInfo{
+    margin-top: 1.5%;
+    margin-left: 56%;
+}
+
+#signUpLink{
+    font-size: 0.75vw;
+    margin-left: 60%;
+}
+
+#skyBlueLine{
+    margin-top: 0.5%;
 }
 
 hr {

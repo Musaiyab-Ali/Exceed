@@ -1,0 +1,9 @@
+.userInfoContainer{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+body{
+    margin-left: 8%;
+}

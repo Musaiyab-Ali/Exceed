@@ -20,7 +20,7 @@ header{
 
 .userInfo{
     margin-top: 1.5%;
-    margin-left: 56%;
+    margin-left: 55%;
 }
 
 #signUpLink{
@@ -30,7 +30,7 @@ header{
 
 a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 a:hover{

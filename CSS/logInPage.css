@@ -14,17 +14,45 @@ header{
 }
 
 #userIdLabel{
-    margin-right:27%;
+    margin-right:28%;
+    margin-left: -6%;
 }
 
 .userInfo{
     margin-top: 1.5%;
     margin-left: 55%;
 }
+#userId{
+    margin-left: -6%;
+    margin-right: 6%;
+}
+
+#userPassword{
+    margin-right: 2%;
+}
+
+.textBoxCircular{
+    width: 35%;
+    border-radius: 8px;
+}
 
 #signUpLink{
     font-size: 1vw;
-    margin-left: 53%;
+    margin-left: 38.5%;
+}
+
+.button{
+    background-color: rgb(138, 69, 0);
+    box-shadow: 1.5px 2px;
+    border: 0.5px solid navajowhite;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.9vw;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 
 a{
@@ -33,7 +61,7 @@ a{
 }
 
 a:hover{
-    color: cyan;
+    color: white;
 }
 
 #skyBlueLine{

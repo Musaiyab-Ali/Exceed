@@ -10,14 +10,35 @@ header{
     align-items: center;
 }
 
+.headFontSize{
+    font-size: 1vw;
+}
+
+#userIdLabel{
+    margin-right:27%;
+}
+
 .userInfo{
     margin-top: 1.5%;
     margin-left: 56%;
 }
 
 #signUpLink{
-    font-size: 0.75vw;
-    margin-left: 60%;
+    font-size: 1vw;
+    margin-left: 53%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: cyan;
+}
+
+a:visited{
+    color: limegreen;
 }
 
 #skyBlueLine{

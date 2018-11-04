@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" type="text/css" href="signUpPage.css">
+    <link rel="stylesheet" type="text/css" href="logInPage.css">
 </head>
 
 <body>
@@ -16,6 +16,9 @@
     <div class="userInfo">
         <form action="success.html">
             <!-- Javascript to check if text === email or username -->
+            <label class="headFontSize" id="userIdLabel" for="userId">User ID:</label>
+            <label class="headFontSize" id="passwordLabel" for="password">Password:</label>
+            <br>
             <input type="text" id="userId" name="userId" placeholder="Email or username" required>
             <!-- Check password for userId -->
             <input type="password" id="userPassword" name="userPassword" placeholder="Password" required>

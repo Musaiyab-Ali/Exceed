@@ -2,6 +2,11 @@
     margin: 0px;
 }
 
+.loginPage-container{
+    background-color: #fa6a00;
+}
+
+/* Header CSS */
 header{
     margin-left: 8%;
     margin-right: 8%;
@@ -14,14 +19,20 @@ header{
 }
 
 #userIdLabel{
+    font-weight: bold;
     margin-right:28%;
     margin-left: -6%;
+}
+
+#passwordLabel{
+    font-weight: bold;
 }
 
 .userInfo{
     margin-top: 1.5%;
     margin-left: 55%;
 }
+
 #userId{
     margin-left: -6%;
     margin-right: 6%;
@@ -37,6 +48,7 @@ header{
 }
 
 #signUpLink{
+    font-weight: bold;
     font-size: 1vw;
     margin-left: 38.5%;
 }
@@ -68,15 +80,12 @@ a:hover{
     margin-top: 0.5%;
 }
 
+/*Slider Image CSS*/
 hr {
     display:block;
     background-color: rgb(200, 49, 0);
     width: 80%;
     margin: auto;
-}
-
-h2{
-    background-color: #fa6a00;
 }
 
 .slide-container{
@@ -105,7 +114,7 @@ h2{
 }
 
 .button-container{
-    top: -20px;
+    top: -5%;
     position: relative;
 }
 
@@ -137,4 +146,24 @@ h2{
 
 h3{
     background-color: black;
+}
+
+/*Description Section CSS*/
+#description-container{
+    margin: 10vh 24vw 15vh 24vw;
+}
+
+/*Business stuff CSS*/
+#business-info\"{
+    display: table;
+    margin: auto;
+}
+
+ul#business-info-items li{
+    display: inline;
+    padding: 3vh 2vw 3vh 2vw;
+}
+
+ul#business-info-items li a:hover{
+    color: #000cff;
 }

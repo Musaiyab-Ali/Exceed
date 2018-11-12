@@ -1,3 +1,11 @@
+#headerLine{
+    margin-left: 2vw;
+}
+
+h3{
+    margin-top: 5vh;
+}
+
 #head-links{
     display: table;
     margin: auto;

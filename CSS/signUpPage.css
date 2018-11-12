@@ -6,6 +6,10 @@
     border-radius: 8px;
 }
 
+#logo-placeholder{
+    font-family: 'Seaweed Script', cursive;
+}
+
 /*Cleaned Up */
 /* DO NOT DELETE!
 .loginPage-container{
@@ -43,20 +47,21 @@
 }
 
 #userIdLabel{
+    font-family: 'Poppins', sans-serif;
     font-weight: bold;
 }
 
 #passwordLabel{
+    font-family: 'Poppins', sans-serif;
     font-weight: bold;
     margin-left: 27%;
 }
 
 #logIn{
-    background-color: rgb(138, 69, 0);
-    box-shadow: 1.5px 2px;
-    border: 0.5px solid navajowhite;
-    border-radius: 5px;
-    color: black;
+    background-color: black;
+    box-shadow: 2px 2px rgba(255,255,255,0.25);
+    border: none;
+    color: white;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -82,13 +87,20 @@ a:hover{
 
 .userInfoContainer{
     position: absolute;
-    top: 37vh;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    padding-top: 5vw;
+    top: 35vh;
     left: 7vw;
     height: 20vh;
     width: 10vw;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,0.3);
+    box-shadow: 4px 6px rgba(30,30,30,0.5);
 }
 
 #signUpImg{
@@ -102,8 +114,9 @@ a:hover{
     text-decoration: underline overline;
     text-decoration-color: white;
     position: absolute;
-    top: 30vh;
-    left: 7vw;
+    top: 38vh;
+    left: 9.7vw;
+    z-index: 2;
 }
 
 #signUpPersuasion{
@@ -116,6 +129,20 @@ a:hover{
     position: absolute;
     top: 20vh;
     right: 30vw;
+}
+
+#createAcc{
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 5% 5%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.75vw;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 
 /*Descriptions*/

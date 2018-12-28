@@ -32,3 +32,8 @@
     background: rgb(0, 80, 221);
     color:rgb(37, 83, 163);
 }
+
+#myChart{
+    border: solid;
+    transform: scale(0.5, 0.5);
+}

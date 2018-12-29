@@ -49,3 +49,25 @@ function average(){
     return average.toFixed(2);
 }
 
+
+
+data = {
+    datasets: [{
+        data: [2,3,5,2,3]
+    }],
+    labels: [
+        'Red',
+        'Orange',
+        'Green',
+        'Blue',
+        'Yellow'
+    ]
+};
+
+let myDoughnutChart = new Chart(ctx, {
+    type: 'doughnut',
+    data: data,
+    options: options
+});
+
+console.log(map1);

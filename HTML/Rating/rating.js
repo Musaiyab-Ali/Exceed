@@ -14,6 +14,7 @@ function addFive(){
     count += 1;
     map1["str5"] += 1;
     document.getElementById('average').innerHTML = "Average: " + average();
+    chart.update();
 }
 
 function addFour(){
@@ -21,6 +22,7 @@ function addFour(){
     count += 1;
     map1["str4"] += 1;
     document.getElementById('average').innerHTML = "Average: " + average();
+    chart.update();
 }
 
 function addThree(){
@@ -28,6 +30,7 @@ function addThree(){
     count += 1;
     map1["str3"] += 1;
     document.getElementById('average').innerHTML = "Average: " + average();
+    chart.update();
 }
 
 function addTwo(){
@@ -35,6 +38,7 @@ function addTwo(){
     count += 1;
     map1["str2"] += 1;
     document.getElementById('average').innerHTML = "Average: " + average();
+    chart.update();
 }
 
 function addOne(){
@@ -42,6 +46,7 @@ function addOne(){
     count += 1;
     map1["str1"] += 1;
     document.getElementById('average').innerHTML = "Average: " + average();
+    chart.update();
 }
 
 function average(){
@@ -70,4 +75,4 @@ let myDoughnutChart = new Chart(ctx, {
     options: options
 });
 
-console.log(map1);
+console.log(map1['str5']);

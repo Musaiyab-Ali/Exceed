@@ -2,11 +2,11 @@ let total = Number(0);
 let count = 0;
 
 let map1 = {
-    "str5" : 20,
-    "str4" : 24,
-    "str3" : 33,
-    "str2" : 13,
-    "str1" : 32,
+    "str5" : 0,
+    "str4" : 0,
+    "str3" : 0,
+    "str2" : 0,
+    "str1" : 0,
 };
 
 function addFive(){
@@ -14,7 +14,7 @@ function addFive(){
     count += 1;
     map1["str5"] += 1;
     document.getElementById('average').innerHTML = "Average: " + average();
-    chart.update();
+
 }
 
 function addFour(){
@@ -22,7 +22,7 @@ function addFour(){
     count += 1;
     map1["str4"] += 1;
     document.getElementById('average').innerHTML = "Average: " + average();
-    chart.update();
+
 }
 
 function addThree(){
@@ -30,7 +30,7 @@ function addThree(){
     count += 1;
     map1["str3"] += 1;
     document.getElementById('average').innerHTML = "Average: " + average();
-    chart.update();
+
 }
 
 function addTwo(){
@@ -38,7 +38,7 @@ function addTwo(){
     count += 1;
     map1["str2"] += 1;
     document.getElementById('average').innerHTML = "Average: " + average();
-    chart.update();
+
 }
 
 function addOne(){
@@ -46,33 +46,26 @@ function addOne(){
     count += 1;
     map1["str1"] += 1;
     document.getElementById('average').innerHTML = "Average: " + average();
-    chart.update();
+
 }
 
-function average(){
+function average() {
     let average = total / count;
     return average.toFixed(2);
 }
 
+function addData(chart, label, data) {
+    chart.data.labels.push(label);
+    chart.data.datasets.forEach((dataset) => {
+        dataset.data.push(data);
+    });
+    chart.update();
+}
 
-
-data = {
-    datasets: [{
-        data: [2,3,5,2,3]
-    }],
-    labels: [
-        'Red',
-        'Orange',
-        'Green',
-        'Blue',
-        'Yellow'
-    ]
-};
-
-let myDoughnutChart = new Chart(ctx, {
-    type: 'doughnut',
-    data: data,
-    options: options
-});
-
-console.log(map1['str5']);
+function removeData(chart) {
+    chart.data.labels.pop();
+    chart.data.datasets.forEach((dataset) => {
+        dataset.data.pop();
+    });
+    chart.update();
+}

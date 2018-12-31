@@ -22,28 +22,25 @@
 <canvas id="myChart" width="400" height="400"></canvas>
 
 <script>
-
-    var ctx = document.getElementById('myChart').getContext('2d');
-    var chart = new Chart(ctx, {
-        // The type of chart we want to create
+    ctx = document.getElementById('myChart').getContext('2d');
+    chart = new Chart(ctx, {
         type: 'doughnut',
-
-        // The data for our dataset
         data: {
-            labels: ["1 Star", "2 Stars", "3 Stars", "4 Stars", "5 Stars"],
             datasets: [{
-                label: "My First dataset",
-                backgroundColor: 'rgb(16, 53, 68)',
-                borderColor: 'rgb(255, 99, 132)',
+                label: 'Colors',
                 data: [map1['str1'], map1['str2'], map1['str3'], map1['str4'], map1['str5']],
-            }]
+                backgroundColor: ["#0074D9", "#FF4136", "#2ECC40", "#FF851B", "#7FDBFF"]
+            }],
+            labels: ['1 Star','2 Stars','3 Star','4 Star','5 Star']
         },
-
-        // Configuration options go here
-        options: {}
-
+        options: {
+            responsive: true,
+            title:{
+                display: true,
+                text: "Color test"
+            }
+        }
     });
-
 </script>
 
 </body>
